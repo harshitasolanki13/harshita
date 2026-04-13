@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#FAFAFA] text-[#111827] transition-colors duration-400 dark:bg-[#0F172A] dark:text-[#F1F5F9];
+  font-family: 'Inter', sans-serif;
+}
+
+*, *::before, *::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 400ms;
+  transition-timing-function: ease;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-16px) scale(1.04);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.float-dot {
+  animation: float 6s ease-in-out infinite;
+}
+
+.cursor {
+  animation: blink 1s step-end infinite;
+}
+
+.section-shell {
+  @apply px-6 py-16 md:py-24;
+}
+
+.section-container {
+  @apply mx-auto max-w-[1200px];
+}
+
+.section-label {
+  @apply mb-3 font-mono text-[13px] font-medium uppercase tracking-[0.15em] text-[#6366F1] dark:text-[#818CF8];
+}
+
+.section-title {
+  @apply text-[30px] font-semibold leading-[1.16] text-[#111827] dark:text-[#F1F5F9] md:text-[44px] md:leading-[1.15];
+}
+
+.section-copy {
+  @apply text-base leading-[1.7] text-[#6B7280] dark:text-[#94A3B8];
+}
