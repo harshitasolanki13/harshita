@@ -43,6 +43,7 @@ npm.cmd install
 | Tooling | `.env` files | Built-in | Secret/config separation | Text file | Beginner |
 | Tooling | Vite proxy | Built-in | Smooth dev API calls without hardcoded CORS workarounds | Config only | Intermediate |
 | Tooling | Gmail App Password | N/A | SMTP login for Gmail account | Google account setting | Beginner |
+| Deployment | Vercel | Current | Hosts the Vite frontend with Git-based deploys | Vercel dashboard / CLI | Beginner |
 
 ## Auto-detected Additions
 
@@ -51,6 +52,7 @@ npm.cmd install
 | Frontend | `@vitejs/plugin-react` | 4.3.x | // AUTO-ADDED: needed for React JSX support in Vite 5 | `npm.cmd install -D @vitejs/plugin-react` | Beginner |
 | Frontend | CSS custom motion layer | Built-in | // AUTO-ADDED: implements subtle parallax-like hero depth without adding another animation dependency | No install required | Intermediate |
 | Backend | `django.core.mail` integration | Built-in | // AUTO-ADDED: uses Django's mail layer instead of extra SMTP packages | No install required | Beginner |
+| Deployment | Vercel project config | Built-in | // AUTO-ADDED: gives the SPA a predictable Vercel deployment path from the `portfolio-frontend` directory | No install required | Beginner |
 
 ## Environment Caveats
 

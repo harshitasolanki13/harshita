@@ -79,6 +79,7 @@ CORS_ALLOWED_ORIGINS = config(
     default="http://localhost:5173",
     cast=Csv(),
 )
+CORS_ALLOW_CREDENTIALS = config("CORS_ALLOW_CREDENTIALS", default=False, cast=bool)
 
 REST_FRAMEWORK = {
     # AUTO-ADDED: the contact API is intentionally public and does not use session auth.

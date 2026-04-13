@@ -71,3 +71,24 @@ Expected result:
 - If `npm` fails in PowerShell, use `npm.cmd`
 - If Django install fails on Python 3.14, use Python 3.11 or 3.12 for the virtual environment
 - If email fails, double-check your Gmail App Password and sender email
+
+## 8. Put the Frontend on Vercel
+
+1. Push this project to GitHub
+2. Open Vercel and import the GitHub repository
+3. When Vercel asks for the project folder, choose `portfolio-frontend`
+4. Add this environment variable in Vercel:
+
+```text
+VITE_API_BASE_URL=https://your-backend-domain.com
+```
+
+5. Click Deploy
+
+Important:
+
+- Vercel is for the frontend here
+- your Django backend should be deployed to a Python host first
+- after that, paste the backend URL into `VITE_API_BASE_URL`
+
+If `VITE_API_BASE_URL` is missing, the contact form will not be able to reach the deployed backend.

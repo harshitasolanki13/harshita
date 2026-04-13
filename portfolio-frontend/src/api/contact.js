@@ -1,7 +1,10 @@
 import axios from 'axios'
 
+// AUTO-ADDED: Vercel production builds can point the form to an external Django API without touching component code.
+const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL ?? '').trim().replace(/\/$/, '')
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL ?? '',
+  baseURL: apiBaseUrl,
   headers: {
     'Content-Type': 'application/json',
   },

@@ -18,3 +18,9 @@ python -m pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 8000
 ```
+
+## Production Notes
+
+- Set `ALLOWED_HOSTS` to your deployed backend domain
+- Set `CORS_ALLOWED_ORIGINS` to include your Vercel frontend domain
+- Copy `portfolio-backend/.env.example` to `.env` before deployment
