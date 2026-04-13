@@ -1,0 +1,1025 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "LR5v9",
+      "x": 80,
+      "y": 80,
+      "name": "Harshita Portfolio Component Library",
+      "width": 1680,
+      "fill": "$color.background",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        56,
+        56,
+        64,
+        56
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "shXNO",
+          "name": "intro",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "NOODb",
+              "name": "eyebrow",
+              "fill": "$color.accent",
+              "content": "Design system / minimal indigo portfolio",
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 0.08
+            },
+            {
+              "type": "text",
+              "id": "Gx6ef",
+              "name": "title",
+              "fill": "$color.textPrimary",
+              "content": "Reusable Components",
+              "fontFamily": "Inter",
+              "fontSize": 44,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "V45W2",
+              "name": "desc",
+              "fill": "$color.textSecondary",
+              "textGrowth": "fixed-width",
+              "width": 900,
+              "content": "Core building blocks for Harshita Rajesh Solanki's single-page portfolio, tuned for spacious editorial rhythm and restrained interaction.",
+              "lineHeight": 1.7,
+              "fontFamily": "Inter",
+              "fontSize": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "N0U51",
+          "name": "topRow",
+          "width": "fill_container",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ne7Jf",
+              "name": "navColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CfW7R",
+                  "name": "navLabel",
+                  "fill": "$color.textSecondary",
+                  "content": "Navigation",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "frame",
+                  "id": "EUzzY",
+                  "name": "Component / Navbar Desktop",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "fill": "$color.surface",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "$color.border"
+                  },
+                  "padding": [
+                    18,
+                    24
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h06Dk",
+                      "name": "navLogoWrap",
+                      "fill": "$color.accentSoft",
+                      "cornerRadius": "$radius.full",
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0taD9",
+                          "name": "navLogo",
+                          "fill": "$color.accent",
+                          "content": "HS",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.06
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m2Hf3",
+                      "name": "navLinks",
+                      "gap": 24,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aWIyJ",
+                          "name": "link1",
+                          "fill": "$color.textSecondary",
+                          "content": "About",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g1uUb",
+                          "name": "link2",
+                          "fill": "$color.textSecondary",
+                          "content": "Skills",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "STu4o",
+                          "name": "link3",
+                          "fill": "$color.textSecondary",
+                          "content": "Projects",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dJXqO",
+                          "name": "link4",
+                          "fill": "$color.textSecondary",
+                          "content": "Experience",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XDqSe",
+                          "name": "link5",
+                          "fill": "$color.textSecondary",
+                          "content": "Contact",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qixqf",
+                  "name": "Component / Navbar Mobile",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "fill": "$color.surface",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "$color.border"
+                  },
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hod5h",
+                      "name": "mobLogo",
+                      "fill": "$color.accent",
+                      "content": "HS",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "JNMR5",
+                      "name": "mobMenu",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "menu",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color.textPrimary"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "99OjJ",
+              "name": "actionColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7gXyt",
+                  "name": "actionLabel",
+                  "fill": "$color.textSecondary",
+                  "content": "Buttons, pills, stats",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "frame",
+                  "id": "w30S8",
+                  "name": "Component / Button Primary",
+                  "reusable": true,
+                  "fill": "$color.accent",
+                  "cornerRadius": "$radius.full",
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "e6qom",
+                      "name": "btnPrimaryLabel",
+                      "fill": "#FFFFFF",
+                      "content": "View My Work",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "yHbaD",
+                      "name": "btnPrimaryIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FteTh",
+                  "name": "Component / Button Ghost",
+                  "reusable": true,
+                  "fill": "$color.surface",
+                  "cornerRadius": "$radius.full",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$color.border"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    14,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K6ObD",
+                      "name": "btnGhostLabel",
+                      "fill": "$color.textPrimary",
+                      "content": "Download Resume",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "UoDAE",
+                      "name": "btnGhostIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "download",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color.textPrimary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Easju",
+                  "name": "Component / Skill Pill",
+                  "reusable": true,
+                  "fill": "$color.accentSoft",
+                  "cornerRadius": "$radius.full",
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "09ZuP",
+                      "name": "pillLabel",
+                      "fill": "$color.accent",
+                      "content": "TypeScript",
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uXZm6",
+                  "name": "Component / Stat Card",
+                  "reusable": true,
+                  "width": 220,
+                  "fill": "$color.surface",
+                  "cornerRadius": "$radius.md",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$color.border"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bb4kq",
+                      "name": "statNumber",
+                      "fill": "$color.textPrimary",
+                      "content": "10+",
+                      "fontFamily": "Inter",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CN6mh",
+                      "name": "statText",
+                      "fill": "$color.textSecondary",
+                      "content": "Projects shipped",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZhIEh",
+          "name": "bottomRow",
+          "width": "fill_container",
+          "gap": 40,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ugBju",
+              "name": "cardsColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G3UdZ",
+                  "name": "cardsLabel",
+                  "fill": "$color.textSecondary",
+                  "content": "Project cards",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "frame",
+                  "id": "QAD3g",
+                  "name": "Component / Project Card",
+                  "reusable": true,
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$color.surface",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$color.border"
+                  },
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "GcxJS",
+                      "name": "projectAccent",
+                      "fill": "$color.accent",
+                      "width": 4,
+                      "height": "fill_container"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u1xCg",
+                      "name": "projectContent",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m9J0H",
+                          "name": "projectTitle",
+                          "fill": "$color.textPrimary",
+                          "content": "Inventory Intelligence Dashboard",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WVt91",
+                          "name": "projectDesc",
+                          "fill": "$color.textSecondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Operational dashboard concept for tracking live inventory, reorder risk, and team actions across warehouses.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6WyEC",
+                          "name": "projectTags",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FUF2a",
+                              "name": "tagA",
+                              "fill": "$color.accentSoft",
+                              "cornerRadius": "$radius.full",
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "aH766",
+                                  "name": "tagALabel",
+                                  "fill": "$color.accent",
+                                  "content": "React",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h0bV9",
+                              "name": "tagB",
+                              "fill": "$color.accentSoft",
+                              "cornerRadius": "$radius.full",
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "36TYq",
+                                  "name": "tagBLabel",
+                                  "fill": "$color.accent",
+                                  "content": "PostgreSQL",
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F6Gd8",
+                          "name": "projectLinks",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "6eytV",
+                              "name": "gitIcon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "github",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color.textPrimary"
+                            },
+                            {
+                              "type": "icon_font",
+                              "id": "zsSOd",
+                              "name": "externalIcon",
+                              "width": 18,
+                              "height": 18,
+                              "iconFontName": "arrow-up-right",
+                              "iconFontFamily": "lucide",
+                              "fill": "$color.textPrimary"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fG67e",
+              "name": "formsColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OfueW",
+                  "name": "formsLabel",
+                  "fill": "$color.textSecondary",
+                  "content": "Form fields & states",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "frame",
+                  "id": "1GHFJ",
+                  "name": "Component / Text Field",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zySqf",
+                      "name": "textFieldLabel",
+                      "fill": "$color.textPrimary",
+                      "content": "Email",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TBvMI",
+                      "name": "textFieldBox",
+                      "width": "fill_container",
+                      "fill": "$color.surface",
+                      "cornerRadius": "$radius.md",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$color.border"
+                      },
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zZQOY",
+                          "name": "textFieldPlaceholder",
+                          "fill": "$color.textSecondary",
+                          "content": "hello@harshita.dev",
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XN0S4",
+                  "name": "Component / Textarea Field",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SANqc",
+                      "name": "textAreaLabel",
+                      "fill": "$color.textPrimary",
+                      "content": "Message",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "5GbB5",
+                      "name": "textAreaBox",
+                      "width": "fill_container",
+                      "height": 150,
+                      "fill": "$color.surface",
+                      "cornerRadius": "$radius.md",
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$color.border"
+                      },
+                      "layout": "vertical",
+                      "padding": [
+                        16,
+                        18
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d9xkP",
+                          "name": "textAreaPlaceholder",
+                          "fill": "$color.textSecondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tell me about your next product, platform, or idea.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H1GAd",
+                  "name": "Component / Status Success",
+                  "fill": "#ECFDF3",
+                  "cornerRadius": "$radius.full",
+                  "gap": 10,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "08KWz",
+                      "name": "successIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "check",
+                      "iconFontFamily": "lucide",
+                      "fill": "#067647"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HkrRb",
+                      "name": "successText",
+                      "fill": "#067647",
+                      "content": "Message sent successfully",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OhrVM",
+                  "name": "Component / Status Error",
+                  "fill": "#FEF3F2",
+                  "cornerRadius": "$radius.full",
+                  "gap": 10,
+                  "padding": [
+                    12,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "rSEdM",
+                      "name": "errorIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "circle-alert",
+                      "iconFontFamily": "lucide",
+                      "fill": "#B42318"
+                    },
+                    {
+                      "type": "text",
+                      "id": "KqMe2",
+                      "name": "errorText",
+                      "fill": "#B42318",
+                      "content": "Please enter a valid email address",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PX13Y",
+              "name": "timelineColumn",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yNHse",
+                  "name": "timelineLabel",
+                  "fill": "$color.textSecondary",
+                  "content": "Timeline & social",
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.08
+                },
+                {
+                  "type": "frame",
+                  "id": "erJt6",
+                  "name": "Component / Timeline Item",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KSNmn",
+                      "name": "rail",
+                      "width": 28,
+                      "height": 140,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "twCc9",
+                          "name": "dot",
+                          "fill": "$color.accent",
+                          "width": 12,
+                          "height": 12
+                        },
+                        {
+                          "type": "rectangle",
+                          "id": "l0BzY",
+                          "name": "line",
+                          "fill": "$color.border",
+                          "width": 2,
+                          "height": 120
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iKXlM",
+                      "name": "timelineContent",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": [
+                        0,
+                        0,
+                        18,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Yqrta",
+                          "name": "roleText",
+                          "fill": "$color.textPrimary",
+                          "content": "Full Stack Developer Intern",
+                          "fontFamily": "Inter",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bbJfu",
+                          "name": "metaText",
+                          "fill": "$color.textSecondary",
+                          "content": "Tech Studio · Jan 2025 — Present",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WVKst",
+                          "name": "bullet1",
+                          "fill": "$color.textSecondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "• Built responsive React and Django interfaces for internal products.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "text",
+                          "id": "8YkeY",
+                          "name": "bullet2",
+                          "fill": "$color.textSecondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "• Shipped API integrations and dashboard workflows with PostgreSQL-backed services.",
+                          "lineHeight": 1.7,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pXqnZ",
+                  "name": "Component / Social Button",
+                  "reusable": true,
+                  "width": 44,
+                  "height": 44,
+                  "fill": "$color.surface",
+                  "cornerRadius": "$radius.full",
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$color.border"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "5V8KR",
+                      "name": "socialIcon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "$color.textPrimary"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "color.accent": {
+      "type": "color",
+      "value": "#6366F1"
+    },
+    "color.accentSoft": {
+      "type": "color",
+      "value": "#EEF2FF"
+    },
+    "color.background": {
+      "type": "color",
+      "value": "#FAFAFA"
+    },
+    "color.border": {
+      "type": "color",
+      "value": "#E5E7EB"
+    },
+    "color.surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "color.surfaceAlt": {
+      "type": "color",
+      "value": "#F3F4F6"
+    },
+    "color.textPrimary": {
+      "type": "color",
+      "value": "#111827"
+    },
+    "color.textSecondary": {
+      "type": "color",
+      "value": "#6B7280"
+    },
+    "font.body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font.heading": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font.mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "radius.full": {
+      "type": "number",
+      "value": 999
+    },
+    "radius.lg": {
+      "type": "number",
+      "value": 16
+    },
+    "radius.md": {
+      "type": "number",
+      "value": 12
+    },
+    "radius.sm": {
+      "type": "number",
+      "value": 8
+    },
+    "space.12": {
+      "type": "number",
+      "value": 12
+    },
+    "space.16": {
+      "type": "number",
+      "value": 16
+    },
+    "space.20": {
+      "type": "number",
+      "value": 20
+    },
+    "space.24": {
+      "type": "number",
+      "value": 24
+    },
+    "space.32": {
+      "type": "number",
+      "value": 32
+    },
+    "space.4": {
+      "type": "number",
+      "value": 4
+    },
+    "space.40": {
+      "type": "number",
+      "value": 40
+    },
+    "space.48": {
+      "type": "number",
+      "value": 48
+    },
+    "space.64": {
+      "type": "number",
+      "value": 64
+    },
+    "space.8": {
+      "type": "number",
+      "value": 8
+    },
+    "space.96": {
+      "type": "number",
+      "value": 96
+    }
+  }
+}
