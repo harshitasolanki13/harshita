@@ -1,10 +1,7 @@
-import aboutPortraitDesktop from '../assets/about-portrait-desktop.png'
-import aboutPortraitMobile from '../assets/about-portrait-mobile.png'
-
 const stats = [
-  { value: '10+', label: 'Projects' },
-  { value: '5+', label: 'Technologies' },
-  { value: '2+', label: 'Years Coding' },
+  { value: '1+', label: 'Projects' },
+  { value: 'Full Stack', label: 'Technologies' },
+  { value: '1+', label: 'Years Coding' },
 ]
 
 export default function About() {
@@ -30,17 +27,12 @@ export default function About() {
 
           <div data-aos="fade-left" className="md:col-span-2">
             <div className="mx-auto flex h-64 w-64 items-center justify-center rounded-full border-4 border-[#C7D2FE] bg-[#EEF2FF] p-3 dark:border-[#312E81] dark:bg-[#1E1B4B]">
-              <div className="h-full w-full overflow-hidden rounded-full border border-[#E5E7EB] bg-white dark:border-[#334155] dark:bg-[#1E293B]">
-                <img
-                  src={aboutPortraitDesktop}
-                  alt="Portrait illustration for Harshita Rajesh Solanki"
-                  className="hidden h-full w-full object-cover md:block"
-                />
-                <img
-                  src={aboutPortraitMobile}
-                  alt="Portrait illustration for Harshita Rajesh Solanki"
-                  className="h-full w-full object-cover md:hidden"
-                />
+              <div
+                role="img"
+                aria-label="Avatar for Harshita Rajesh Solanki"
+                className="flex h-full w-full items-center justify-center overflow-hidden rounded-full border border-[#E5E7EB] bg-gradient-to-br from-[#6366F1] to-[#818CF8] dark:border-[#334155]"
+              >
+                <span className="text-[64px] font-bold leading-none text-white">HS</span>
               </div>
             </div>
           </div>
