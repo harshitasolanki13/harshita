@@ -1,30 +1,24 @@
 const experiences = [
   {
-    role: 'Full Stack Developer',
-    company: 'Independent Projects',
-    date: '2024 - Present',
+    role: 'Full Stack Developer Training',
+    company: 'Digifine Academy',
+    date: '2025 - 2026',
     bullets: [
-      'Built responsive portfolio and dashboard experiences with React, Tailwind CSS, and strong attention to interface rhythm.',
-      'Designed backend APIs in Django REST Framework to support forms, data flows, and maintainable content structures.',
-      'Translated early concepts into polished, mobile-friendly interfaces with a design-first implementation process.',
+      'Completed a full-stack curriculum covering front-end and back-end web technologies.',
+      'Built and deployed web applications using React.js, Node.js, and MySQL.',
+      'Used Git for version control and followed REST API and Linux-based workflows.',
+      'Used AI CLI tools (Claude, Codex) for code generation, debugging, and documentation.',
     ],
   },
   {
-    role: 'Frontend Developer',
-    company: 'Academic & Freelance Work',
-    date: '2023 - 2024',
+    role: 'Quality Checker (Intern)',
+    company: 'Siteonlab AI Solutions',
+    date: 'Internship',
     bullets: [
-      'Created reusable UI sections and interaction patterns with emphasis on whitespace, legibility, and clear hierarchy.',
-      'Integrated REST APIs, form validation, and state-driven views to keep applications consistent across devices.',
-    ],
-  },
-  {
-    role: 'Developer-in-Training',
-    company: 'Personal Learning Track',
-    date: '2022 - 2023',
-    bullets: [
-      'Strengthened core skills in JavaScript, Python, databases, and Git through hands-on projects and iterative builds.',
-      'Focused on full-stack fundamentals, from semantic frontend structure to backend logic and deployment basics.',
+      'Reviewed live sites end to end to check that pages loaded correctly and every link worked.',
+      'Verified responsiveness across screen sizes, flagging layout and display issues for the dev team.',
+      'Walked through the full site structure and page flow to confirm navigation behaved as expected.',
+      'Reported issues clearly so they could be fixed before the project was delivered to the client.',
     ],
   },
 ]
