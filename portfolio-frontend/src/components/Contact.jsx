@@ -9,13 +9,13 @@ const initialForm = {
 }
 
 const socialLinks = [
-  { name: 'GitHub', href: 'https://github.com/harshita-rajesh-solanki', icon: Github },
+  { name: 'GitHub', href: 'https://github.com/harshitasolanki13', icon: Github },
   {
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/harshita-rajesh-solanki/',
     icon: Linkedin,
   },
-  { name: 'Email', href: 'mailto:harshita@portfolio.com', icon: Mail },
+  { name: 'Email', href: 'mailto:harshu131203@gmail.com', icon: Mail },
 ]
 
 export default function Contact() {
